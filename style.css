@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #b9dbe7;
+}
+
+header {
+    background: #1b1847;
+    color: rgb(243, 240, 240);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #6c63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background: #5548d9;
+}
+
+.details {
+    padding: 30px;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 20px;
+    width: 80%;
+    height: 400px;
+}
